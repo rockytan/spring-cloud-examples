@@ -8,13 +8,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>Ulife Cloud Parent</name>
-	<description>Ulife Cloud Parent</description>
+	<name>Ulife Cloud</name>
+	<description>Ulife Cloud</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.0.RELEASE</version>
+		<version>1.3.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -39,6 +39,12 @@
 
 	<modules>
 		<module>eureka-server</module>
+		<module>eureka-client</module>
+		<module>annotation</module>
+		<module>portal</module>
+		<module>demo-service</module>
+		<module>demo-service-api</module>
+		<module>demo-motan-client</module>
 	</modules>
 
 	<repositories>

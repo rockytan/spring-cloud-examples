@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <!-- service implemention bean -->
+    <bean id="serviceImpl" class="com.ulife.cloud.demo.UserServiceImpl" />
+    <!-- exporting service by Motan -->
+    <motan:registry regProtocol="consul" name="my_consul" address="127.0.0.1:8500"/>
+    <motan:service interface="com.ulife.cloud.demo.UserService" ref="serviceImpl" registry="my_consul" export="8002" />
+</beans>

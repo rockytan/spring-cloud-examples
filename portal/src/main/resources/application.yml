@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+spring:
+  profiles: development
+
+  data:
+    mongodb:
+      uri: mongodb://localhost/portal
