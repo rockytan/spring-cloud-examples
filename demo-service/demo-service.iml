@@ -116,7 +116,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.7" level="project" />
-    <orderEntry type="module" module-name="motan-core" />
+    <orderEntry type="library" name="Maven: com.weibo:motan-core:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6" level="project" />
     <orderEntry type="library" name="Maven: com.caucho:hessian:4.0.38" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.30" level="project" />
@@ -127,10 +127,10 @@
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.4" level="project" />
-    <orderEntry type="module" module-name="motan-transport-netty" />
+    <orderEntry type="library" name="Maven: com.weibo:motan-transport-netty:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
-    <orderEntry type="module" module-name="motan-springsupport" />
-    <orderEntry type="module" module-name="motan-registry-consul" />
+    <orderEntry type="library" name="Maven: com.weibo:motan-springsupport:0.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.weibo:motan-registry-consul:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.ecwid.consul:consul-api:1.1.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.5" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />

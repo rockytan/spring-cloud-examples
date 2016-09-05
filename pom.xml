@@ -45,6 +45,7 @@
 		<module>demo-service</module>
 		<module>demo-service-api</module>
 		<module>demo-motan-client</module>
+		<module>user-microservice</module>
 	</modules>
 
 	<repositories>
